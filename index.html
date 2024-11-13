@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poll Widget</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="info">
+        Голосование в чате!<br>
+        Напишите цифру в чат
+        <span>Проголосовавших: <span id="counter-info">0</span></span>
+        <div id="timer">1:00</div>
+    </div>
+    <div id="result" style="display: none;">
+        Голосование окончено!<br>
+        Самый частый ответ:
+        <div id="score">0</div>
+        <span>Проголосовавших: <span id="counter-result">0</span></span>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/comfy.js@latest/dist/comfy.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
